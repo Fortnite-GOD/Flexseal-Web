@@ -1,0 +1,115 @@
+body {
+    background-color: #300000;
+    max-width: 100%;
+}
+
+h1 {
+    color: yellow;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
+h2 {
+    color: yellow;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h3 {
+    color: #ff0000;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+p {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+img {
+   max-width: 100%;
+   min-width: 20px;
+   min-height: 20px;
+   width: 150px;
+   margin-right: 5vw;
+}
+
+#flexseal {
+    max-width: 100%;
+    min-width: 250px;
+    width: 150px;
+    margin-left: 5vw;
+ }
+
+#icons {
+    margin-right: 10vw;
+}
+
+#flexseal-colours {
+    max-width: 100%;
+    min-width: 250px;
+    width: 1000px;
+    margin-left: 5vw;
+ }
+
+nav {
+    background: #ff0000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 13%;
+    max-height: 13vh;
+
+    display: flex;
+    align-items: left;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 13vh;
+    margin-bottom: 10vh;
+    max-width: 1520px;
+    width: 90%;
+    text-align: center;
+}
+
+.overall_descp {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.overall_descp > * {
+    flex: 1;
+}
+
+.NASCAR{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.NASCAR > * {
+    flex: 1;
+}
+
+.flexseal_dscrp{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flexseal_dscrp > * {
+    flex: 1;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
